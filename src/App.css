@@ -1,0 +1,25 @@
+.board{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10 auto;
+}
+.board:hover{
+    background-color: rgb(235, 233, 233);
+}
+.arr{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: min-content;
+    margin: 16px auto;
+ 
+}
+.total{
+ text-align: center;
+ 
+}
